@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   background-color: #FFFFFF;
@@ -11,25 +11,28 @@ nav{
   padding: 20px 40px;
 }
 
- .top-list{
+.top-list {
   display: flex;
   list-style: none;
   gap: 20px;
   text-align: center;
 }
-nav .top-list a{
+
+nav .top-list a {
   text-decoration: none;
   color: #575757;
   font-weight: 10;
   font-size: 13px;
   align-items: center;
-  
+
 }
+
 .logo {
   width: 100px;
   padding: 0 100px;
 }
-.register-btn{
+
+.register-btn {
   display: inline-block;
   padding: 15px 20px;
   background-color: #1D4ED8;
@@ -39,7 +42,8 @@ nav .top-list a{
   font-size: 13px;
 
 }
-header{
+
+header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/banner.jpg");
   height: 90vh;
   background-size: cover;
@@ -48,22 +52,26 @@ header{
   justify-content: center;
   align-items: center;
 }
-.header-conetent{
+
+.header-conetent {
   color: white;
-    text-align: center;
-    display: grid;
-    gap: 20px;
+  text-align: center;
+  display: grid;
+  gap: 20px;
 }
-.header-conetent h1{
+
+.header-conetent h1 {
   font-size: 60px;
-white-space: nowrap;
+  white-space: nowrap;
 }
-.header-conetent p{
+
+.header-conetent p {
   max-width: 60ch;
-    margin: 0 auto;
-    font-size: 20px;
+  margin: 0 auto;
+  font-size: 20px;
 }
-.btn{
+
+.btn {
   display: block;
   padding: 18px 50px;
   background-color: #1D4ED8;
@@ -75,55 +83,66 @@ white-space: nowrap;
   width: max-content;
   margin: 40px auto 0px;
 }
+
 /*card*/
 
-.card-Speakers h1{
+.card-Speakers h1 {
   justify-content: space-between;
   text-align: center;
   padding: 50px 0;
 
 }
-.speakers-card{
+
+.speakers-card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 50px;
   padding: 10px 3%;
 }
-.speakers-card .left-side img{
+
+.speakers-card .left-side img {
   width: 100%;
   border-radius: 15px;
 }
-.speakers-card .ai{
+
+.speakers-card .ai {
   color: #2563EB;
   font-size: 12px;
 
 }
-.speakers-card .team{
+
+.speakers-card .team {
   color: #575757;
   font-size: 14px;
 }
-.left-side{
+
+.left-side {
   display: grid;
   gap: 8px;
   white-space: nowrap;
 }
-.left-side h2, .ai, .team{
+
+.left-side h2,
+.ai,
+.team {
   margin: 0;
   padding-left: 25px;
 }
+
 /*Secure Your Spot*/
-.spot{
+.spot {
   justify-content: space-between;
   text-align: center;
   padding: 50px 0;
 }
-.spot p{
+
+.spot p {
   padding: 10px;
   color: #575757;
   font-size: 15px;
 }
 
-.card-container{
+.card-container {
   width: 90%;
   max-width: 1200px;
   margin: auto;
@@ -133,34 +152,41 @@ white-space: nowrap;
   overflow-x: auto;
   white-space: nowrap;
 }
-.card-tabel{
+
+.card-tabel {
   background-color: #E5E7EB;
   padding: 10% 15%;
   border-radius: 12px;
   text-align: center;
   text-align: left;
-  
+
 }
-.card-tabel p{
+
+.card-tabel p {
   font-size: 20px;
   color: #888888;
 }
-.card-tabel h1{
+
+.card-tabel h1 {
   font-size: 50px;
   margin: 15px 0 0px;
 }
-.card-tabel .nd{
+
+.card-tabel .nd {
   font-size: 15px;
 }
-.card-tabel ul{
+
+.card-tabel ul {
   text-align: left;
   margin: 40px 0px;
   list-style: none;
 }
-.card-tabel ul li{
+
+.card-tabel ul li {
   margin: 15px 0;
 }
-.card-tabel ul li::before{
+
+.card-tabel ul li::before {
   content: '\2022';
   color: #2563EB;
   font-weight: bold;
@@ -168,64 +194,294 @@ white-space: nowrap;
 
 }
 
-.card-tabel .Standard{
+.card-tabel .Standard {
   width: 100%;
   padding: 8px 100px;
-color: #1D4ED8;
-font-size: 15px;
-border: 1px solid#1D4ED8;
-border-radius: 10px;
-margin-top: 20px;
-cursor: pointer;
-text-align: center;
-text-decoration: none;
-transition: all 0.5s ease;
+  color: #1D4ED8;
+  font-size: 15px;
+  border: 1px solid#1D4ED8;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease;
 }
-.card-tabel .Standard:hover{
-background-color: chocolate;
+
+.card-tabel .Standard:hover {
+  background-color: chocolate;
 }
-.card-tabel .pro{
+
+.card-tabel .pro {
 
   width: 100%;
   padding: 15px 100px;
-color: white;
-font-size: 15px;
-background-color: #2563EB;
-border-radius: 10px;
-margin-top: 20px;
-cursor: pointer;
-text-align: center;
-text-decoration: none;
-transition: all 0.5s ease;
+  color: white;
+  font-size: 15px;
+  background-color: #2563EB;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease;
 }
 
-.card-tabel .pro:hover{
-background-color: chocolate;
+.card-tabel .pro:hover {
+  background-color: chocolate;
 }
-.card-pro{
+
+.card-pro {
   background-color: #0D1B2A;
   padding: 10% 15%;
   border-radius: 12px;
   text-align: center;
   text-align: left;
   color: #FFFFFF;
-  
-}
-.us{
-  width: 100%;
-  padding: 15px 100px;
-color: #0D1B2A;
-font-size: 15px;
-border: 1px solid#0D1B2A;
-border-radius: 10px;
-margin-top: -80px;
-cursor: pointer;
-text-align: center;
-text-decoration: none;
-transition: all 0.5s ease;
-background-color: white;
+
 }
 
-.card-tabel .us:hover{
-background-color: chocolate;
+.us {
+  width: 100%;
+  padding: 15px 100px;
+  color: #0D1B2A;
+  font-size: 15px;
+  border: 1px solid#0D1B2A;
+  border-radius: 10px;
+  margin-top: -80px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  background-color: white;
+}
+
+.card-tabel .us:hover {
+  background-color: chocolate;
+}
+
+
+/*text*/
+
+
+
+/* --- HACKATHON SECTION STYLE --- */
+.hackathon-section {
+  max-width: 1200px;
+  margin: 6rem auto;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+/* Main Banner Card with Glassmorphism and Gradient Border */
+.hackathon-banner {
+  background: linear-gradient(135deg, rgba(17, 24, 39, 0.8), rgba(31, 41, 55, 0.8));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 4rem 3rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  color: #e5e7eb;
+}
+
+/* Background Glowing Effect Background */
+. hackathon-banner::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.2) 0%, transparent 70%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.hackathon-content {
+  flex: 1;
+  z-index: 1;
+}
+
+.hackathon-tag {
+  display: inline-block;
+  background: linear-gradient(90deg, #ec4899, #8b5cf6);
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 15px rgba(236, 72, 153, 0.3);
+}
+
+.hackathon-title {
+  font-size: 3rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #ffffff 50%, #c7d2fe 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+  letter-spacing: -1px;
+}
+
+.hackathon-desc {
+  color: #9ca3af;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+  max-width: 650px;
+}
+
+/* --- INFO STATS GRID --- */
+.hackathon-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.stat-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(99, 102, 241, 0.4);
+  transform: translateY(-5px);
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: #9ca3af;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #38bdf8;
+}
+
+.stat-value.prize {
+  color: #a78bfa;
+}
+
+/* --- CTA BUTTON SIDE --- */
+.hackathon-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.reg-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 1.2rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #070a13;
+  background: #ffffff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Interactive Hover Glow Effects */
+.reg-button:hover {
+  transform: scale(1.05);
+  background:
+    linear-gradient(90deg, #00f2fe, #4f46e5);
+  color: #ffffff;
+  box-shadow: 0 15px 35px rgba(0, 242, 254, 0.4);
+}
+
+.reg-button span {
+  margin-left: 0.75rem;
+  font-size: 1.3rem;
+  transition: transform 0.3s ease;
+}
+
+.reg-button:hover span {
+  transform: translateX(6px);
+}
+
+.spots-left {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #ef4444;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Blinking Live Dot Animation */
+.live-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #ef4444;
+  border-radius: 50%;
+  display: inline-block;
+  animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0.3;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.3;
+  }
+}
+
+/* --- RESPONSIVE STYLES --- */
+@media (max-width: 992px) {
+  .hackathon-banner {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 3rem 2rem;
+  }
+
+  .hackathon-action {
+    margin-top: 1rem;
+  }
+
+  .reg-button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .hackathon-title {
+    font-size: 2.2rem;
+  }
+
+  .hackathon-stats {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
