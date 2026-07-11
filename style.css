@@ -11,13 +11,13 @@ nav{
   padding: 20px 40px;
 }
 
- ul{
+ .top-list{
   display: flex;
   list-style: none;
   gap: 20px;
   text-align: center;
 }
-nav ul li a{
+nav .top-list a{
   text-decoration: none;
   color: #575757;
   font-weight: 10;
@@ -110,4 +110,122 @@ white-space: nowrap;
 .left-side h2, .ai, .team{
   margin: 0;
   padding-left: 25px;
+}
+/*Secure Your Spot*/
+.spot{
+  justify-content: space-between;
+  text-align: center;
+  padding: 50px 0;
+}
+.spot p{
+  padding: 10px;
+  color: #575757;
+  font-size: 15px;
+}
+
+.card-container{
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.card-tabel{
+  background-color: #E5E7EB;
+  padding: 10% 15%;
+  border-radius: 12px;
+  text-align: center;
+  text-align: left;
+  
+}
+.card-tabel p{
+  font-size: 20px;
+  color: #888888;
+}
+.card-tabel h1{
+  font-size: 50px;
+  margin: 15px 0 0px;
+}
+.card-tabel .nd{
+  font-size: 15px;
+}
+.card-tabel ul{
+  text-align: left;
+  margin: 40px 0px;
+  list-style: none;
+}
+.card-tabel ul li{
+  margin: 15px 0;
+}
+.card-tabel ul li::before{
+  content: '\2022';
+  color: #2563EB;
+  font-weight: bold;
+  margin-right: 8px;
+
+}
+
+.card-tabel .Standard{
+  width: 100%;
+  padding: 8px 100px;
+color: #1D4ED8;
+font-size: 15px;
+border: 1px solid#1D4ED8;
+border-radius: 10px;
+margin-top: 20px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+transition: all 0.5s ease;
+}
+.card-tabel .Standard:hover{
+background-color: chocolate;
+}
+.card-tabel .pro{
+
+  width: 100%;
+  padding: 15px 100px;
+color: white;
+font-size: 15px;
+background-color: #2563EB;
+border-radius: 10px;
+margin-top: 20px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+transition: all 0.5s ease;
+}
+
+.card-tabel .pro:hover{
+background-color: chocolate;
+}
+.card-pro{
+  background-color: #0D1B2A;
+  padding: 10% 15%;
+  border-radius: 12px;
+  text-align: center;
+  text-align: left;
+  color: #FFFFFF;
+  
+}
+.us{
+  width: 100%;
+  padding: 15px 100px;
+color: #0D1B2A;
+font-size: 15px;
+border: 1px solid#0D1B2A;
+border-radius: 10px;
+margin-top: -80px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+transition: all 0.5s ease;
+background-color: white;
+}
+
+.card-tabel .us:hover{
+background-color: chocolate;
 }
