@@ -5,23 +5,27 @@
 section {
   padding: 70px 7%;
 }
-nav {
+nav{
   display: flex;
   justify-content: space-between;
-  background-color: #FFFFFF
+  background-color: #FFFFFF;
   align-items: center;
-  padding: 30px 30px;
+  padding: 20px 40px;
 }
-nav ul li{
-  display: inline-block;
+
+ ul{
+  display: flex;
   list-style: none;
-  margin: 10px 15px;
+  gap: 20px;
+  text-align: center;
 }
 nav ul li a{
   text-decoration: none;
   color: #575757;
-  font-weight: 400;
+  font-weight: 10;
   font-size: 13px;
+  align-items: center;
+  
 }
 .logo {
   width: 100px;
@@ -35,4 +39,46 @@ nav ul li a{
   border-radius: 15px;
   text-decoration: none;
   font-size: 13px;
+
+}
+header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/banner.jpg");
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.header-conetent{
+  color: white;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+}
+.header-conetent h1{
+  font-size: 60px;
+white-space: nowrap;
+}
+.header-conetent p{
+  max-width: 60ch;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.btn{
+  display: block;
+  padding: 18px 50px;
+  background-color: #1D4ED8;
+  color: white;
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  align-items: center;
+  width: max-content;
+  margin: 40px auto 0px;
+}
+.card-Speakers h1 {
+  justify-content: space-between;
+  text-align: center;
+
 }
